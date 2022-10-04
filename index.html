@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="">
+      <div class="container">
+        <h1>Contact</h1>
+        <input type="name" placeholder="name" id="userName" />
+        <br />
+        <input type="email" placeholder="example@gmail.com" id="userEmail" />
+        <br />
+        <!-- <input type="select" id="userImage" /> -->
+        <br />
+        <textarea
+          name="message"
+          id="contact-message"
+          cols="30"
+          rows="10"
+          placeholder="type your messsge"
+        ></textarea>
+        <br />
+        <button id="addContact">Add Contact</button>
+      </div>
+    </form>
+    <div class="contact-list" id="list"></div>
+
+    <div class="main-modal">
+      <div class="edit-modal">
+        <button id="closeModal">Close</button>
+        <br />
+        <input type="text" id="innerModal" />
+        <input type="text" id="innerEmail" />
+        <input type="text" id="innerMessage" />
+        <button id="modalSave">Save</button>
+      </div>
+    </div>
+    <script src="./js/main.js"></script>
+  </body>
+</html>

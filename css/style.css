@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 40%;
+  margin: 0 auto;
+  text-align: center;
+  background-color: rgb(199, 198, 198);
+}
+h1 {
+  font-size: 50px;
+  padding-top: 50px;
+}
+
+input {
+  width: 80%;
+  font-size: 15px;
+  padding: 10px;
+  margin: 15px;
+}
+
+#addContact {
+  padding: 10px;
+  margin-bottom: 50px;
+  font-weight: bolder;
+  color: white;
+  font-size: 20px;
+  background-color: rgb(74, 74, 250);
+  border: none;
+  border-radius: 10px;
+}
+.contact-list {
+  width: 40%;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding: 15px;
+}
+.contact-list div {
+  background-color: rgb(199, 198, 198);
+  margin: 20px;
+  padding: 25px;
+  border-radius: 15px;
+}
+
+.contact-list div button {
+  padding: 5px;
+  margin: 10px;
+}
+#contact-message {
+  width: 80%;
+  height: 100px;
+  padding: 15px;
+  margin-bottom: 10px;
+}
+.main-modal {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  right: 0px;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: none;
+}
+
+.edit-modal {
+  width: 360px;
+  height: 350px;
+  background-color: white;
+  margin: 190px auto;
+  border-radius: 20px;
+}
+
+#innerModal,
+#innerEmail,
+#innerMessage {
+  width: 300px;
+  border-radius: 10px;
+  margin-left: 30px;
+}
+#modalSave {
+  padding: 10px;
+  font-weight: bolder;
+  color: white;
+  font-size: 15px;
+  background-color: rgb(104, 104, 104);
+  border: none;
+  border-radius: 10px;
+  margin: 10px 150px;
+}
+#closeModal {
+  padding: 10px;
+  color: white;
+  font-size: 15px;
+  background-color: rgb(104, 104, 104);
+  border: none;
+  border-radius: 10px;
+  margin: 10px 290px;
+}
